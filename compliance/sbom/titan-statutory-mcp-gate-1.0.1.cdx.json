@@ -1,0 +1,87 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7b4e1e2a-9c5d-4f6a-8e3b-202611270101",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-27T09:42:00Z",
+    "authors": [
+      {
+        "name": "Shady Ismail",
+        "email": "audit@titancapitalforensics.com"
+      }
+    ],
+    "supplier": {
+      "name": "TITAN Capital Forensics LLC",
+      "url": [
+        "https://titancapitalforensics.com"
+      ],
+      "contact": [
+        {
+          "name": "Open Source Compliance Officer",
+          "email": "audit@titancapitalforensics.com"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:pypi/titan-statutory-mcp-gate@1.0.1",
+      "name": "titan-statutory-mcp-gate",
+      "version": "1.0.1",
+      "description": "Stateless diagnostic statutory applicability, schema readiness, and Ed25519 workpaper hash gate for US, EU, and UAE compliance workflows.",
+      "purl": "pkg:pypi/titan-statutory-mcp-gate@1.0.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/titan-capital-forensics/titan-statutory-mcp-gate"
+        },
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/project/titan-statutory-mcp-gate/1.0.1/"
+        },
+        {
+          "type": "attestation",
+          "url": "https://search.sigstore.dev/?logIndex=4145000369"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@42.0.0",
+      "name": "cryptography",
+      "version": ">=42.0.0",
+      "scope": "required",
+      "description": "PyCA cryptography library used exclusively for Ed25519 signature verification.",
+      "purl": "pkg:pypi/cryptography",
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cryptography.io/"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/titan-statutory-mcp-gate@1.0.1",
+      "dependsOn": [
+        "pkg:pypi/cryptography@42.0.0"
+      ]
+    }
+  ]
+}
