@@ -1,15 +1,22 @@
 # TITAN Capital Forensics LLC
 
 **Deterministic Client-Side Zero-Egress Statutory Compliance & Cryptographic Audit Infrastructure**  
-Albuquerque, New Mexico, USA (NM SOS Business ID `0008141707`) · [titancapitalforensics.com](https://titancapitalforensics.com)
+Albuquerque, New Mexico, USA (NM SOS Business ID `0008141707`) · [titancapitalforensics.com](https://titancapitalforensics.com) · [Executive Dispatch (Substack)](https://titancapitalforensics.substack.com)
+
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/17188/badge)](https://www.bestpractices.dev/en/projects/17188)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/titan-capital-forensics/titan-statutory-mcp-gate/badge)](https://scorecard.dev/viewer/?uri=github.com/titan-capital-forensics/titan-statutory-mcp-gate)
+[![REUSE status](https://api.reuse.software/badge/github.com/titan-capital-forensics/titan-statutory-mcp-gate)](https://api.reuse.software/info/github.com/titan-capital-forensics/titan-statutory-mcp-gate)
+[![Glama MCP Server](https://glama.ai/mcp/servers/titan-capital-forensics/titan-statutory-mcp-gate/badges/score.svg)](https://glama.ai/mcp/servers/titan-capital-forensics/titan-statutory-mcp-gate)
+[![PyPI](https://img.shields.io/pypi/v/titan-statutory-mcp-gate?label=PyPI&color=1f5e4b)](https://pypi.org/project/titan-statutory-mcp-gate/)
+[![npm](https://img.shields.io/npm/v/@titan-capital-forensics/statutory-cli?label=npm&color=1f5e4b)](https://www.npmjs.com/package/@titan-capital-forensics/statutory-cli)
 
 ---
 
 ## Architecture Principles
 
-- **Zero-Egress Client-Side Execution:** All statutory engines execute locally inside the user's browser via WebAssembly and pure client-side verification — zero sensitive client workpapers, tax ledgers, PHI, or geospatial polygons are transmitted to or retained on remote servers.
+- **Zero-Egress Client-Side Execution:** All statutory engines execute locally inside the user's browser via WebAssembly and pure client-side verification — zero sensitive client workpapers, tax ledgers, PHI, or geospatial polygons are transmitted to or retained on remote servers (`CSP: connect-src 'none'`).
 - **Deterministic Precision:** `0-ULP` fixed-point `BigInt` statutory arithmetic, RFC 8785 canonical JSON serialization, SHA-256 Merkle inclusion trails, W3C WebCrypto Ed25519 digital signatures, and Z3 SMT formal invariant checking.
-- **Independent Open Standards:** Active alignments across OWASP CycloneDX, IETF, C2PA / Content Authenticity Initiative, Open Data Institute, and CERN Zenodo open archival specifications.
+- **Independent Open Standards:** Active alignments across OWASP CycloneDX, W3C (`DPVCG`, `WebAssembly CG`, `AI Agent Protocol CG`), OpenSSF, OpenChain ISO/IEC 5230:2020, FSFE REUSE 3.3, IETF, C2PA / Content Authenticity Initiative, and CERN Zenodo open archival specifications.
 
 ---
 
@@ -30,12 +37,12 @@ Albuquerque, New Mexico, USA (NM SOS Business ID `0008141707`) · [titancapitalf
 
 ---
 
-## Verified Institutional, Package & Open-Source Trust Registries
+## Verified Standards, Package & AI Agent Registries
 
-- **Open Source License Compliance (OpenChain ISO/IEC 5230:2020):** [Open Source Compliance Program](../OPEN_SOURCE_COMPLIANCE_PROGRAM.md) · [34/34 Conformance Record](../compliance/ISO-5230-2020-CONFORMANCE-RECORD.md) · [Vulnerability Disclosure Policy](../SECURITY.md)
-- **OpenSSF Supply-Chain Assurance:** [OpenSSF Best Practices Badge (`PASSING 100%`, `#17188`)](https://www.bestpractices.dev/en/projects/17188) · [Google `deps.dev` PyPI Attestation](https://deps.dev/pypi/titan-statutory-mcp-gate) · [Google `deps.dev` npm SLSA v1 Provenance](https://deps.dev/npm/%40titan-capital-forensics%2Fstatutory-cli)
-- **Official Package & MCP Registries:** [PyPI (`titan-statutory-mcp-gate`)](https://pypi.org/project/titan-statutory-mcp-gate/) · [npm (`@titan-capital-forensics/statutory-cli`)](https://www.npmjs.com/package/@titan-capital-forensics/statutory-cli) · [Glama Verified Official MCP](https://glama.ai/mcp/servers/titan-capital-forensics/titan-statutory-mcp-gate) · [GitLab Official Mirror](https://gitlab.com/titan-capital-forensics)
-- **Cryptographic Identity (OpenPGP Ed25519 — 3/3 Verified Proofs):** [`keyoxide.org/F38185B9E58B9AA560D9A0AC3DEEC6D7518051E1`](https://keyoxide.org/F38185B9E58B9AA560D9A0AC3DEEC6D7518051E1)
-- **Corporate Technical Specifications (`15` CERN Zenodo DOIs):** [`zenodo.org/search?q="TITAN Capital Forensics"`](https://zenodo.org/search?q=%22TITAN%20Capital%20Forensics%22)
+- **Supply-Chain & Open-Source Security:** [OpenSSF Best Practices (`PASSING 100%`, `#17188`)](https://www.bestpractices.dev/en/projects/17188) · [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/titan-capital-forensics/titan-statutory-mcp-gate) · [FSFE REUSE 3.3 SPDX Compliance](https://api.reuse.software/info/github.com/titan-capital-forensics/titan-statutory-mcp-gate) · [Google `deps.dev` PyPI PEP 740](https://deps.dev/pypi/titan-statutory-mcp-gate) · [Google `deps.dev` npm SLSA v1](https://deps.dev/npm/%40titan-capital-forensics%2Fstatutory-cli)
+- **SBOM & License Conformance:** [OWASP CycloneDX Official Tool Center (`TITAN Capital Forensics Suite`)](https://cyclonedx.org/tool-center/#toolCard-titan_capital_forensics_suite) · [OpenChain ISO/IEC 5230:2020 Compliance Program](../OPEN_SOURCE_COMPLIANCE_PROGRAM.md) · [34/34 Conformance Record](../compliance/ISO-5230-2020-CONFORMANCE-RECORD.md) · [Vulnerability Disclosure Policy](../SECURITY.md)
+- **Standards Bodies & Coalitions:** [W3C Profile (`DPVCG` · `WebAssembly CG` · `AI Agent Protocol CG`)](https://www.w3.org/users/180888/) · Content Authenticity Initiative (`CAI / C2PA` Official Member)
+- **AI Agent & Package Ecosystem:** [Official MCP Registry (`com.titancapitalforensics/statutory-gate`)](https://registry.modelcontextprotocol.io) · [Glama Verified Official MCP (Grade A)](https://glama.ai/mcp/servers/titan-capital-forensics/titan-statutory-mcp-gate) · [Global A2A Agent Registry](https://www.a2a-registry.org/agent/com.titancapitalforensics.titan_capital_forensics_statutory_diagnostic_agent) · [Canonical A2A Card (`/.well-known/agent-card.json`)](https://titancapitalforensics.com/.well-known/agent-card.json) · [PyPI (`titan-statutory-mcp-gate`)](https://pypi.org/project/titan-statutory-mcp-gate/) · [npm (`@titan-capital-forensics/statutory-cli`)](https://www.npmjs.com/package/@titan-capital-forensics/statutory-cli) · [Agent Skills (`SKILL.md`)](https://github.com/titan-capital-forensics/titan-statutory-mcp-gate/blob/main/skills/titan-statutory-gate/SKILL.md)
+- **Cryptographic Identity & Archives:** [Keyoxide OpenPGP Ed25519 (`3/3` Verified Proofs)](https://keyoxide.org/F38185B9E58B9AA560D9A0AC3DEEC6D7518051E1) · [15 Corporate CERN Zenodo Technical Specifications](https://zenodo.org/search?q=%22TITAN%20Capital%20Forensics%22) · [GitLab Official 6-Repo Mirror](https://gitlab.com/titan-capital-forensics)
 - **Partner Networks:** Microsoft Partner Network (`Partner ID 7200897` / `PLA 7200898`) · IBM Partner Plus (`CEID: 10yl4t`)
-- **Official Channels:** [LinkedIn](https://www.linkedin.com/company/titan-capital-forensics-llc/) · [Bluesky (`@titancapitalforensics.com`)](https://bsky.app/profile/titancapitalforensics.com) · [X (`@TitanForensics`)](https://x.com/TitanForensics) · [Hugging Face](https://huggingface.co/titan-capital-forensics) · [Crunchbase](https://www.crunchbase.com/organization/titan-capital-forensics-llp)
+- **Official Channels:** [Substack Executive Dispatch](https://titancapitalforensics.substack.com) · [LinkedIn](https://www.linkedin.com/company/titan-capital-forensics-llc/) · [Bluesky (`@titancapitalforensics.com`)](https://bsky.app/profile/titancapitalforensics.com) · [X (`@TitanForensics`)](https://x.com/TitanForensics) · [Hugging Face](https://huggingface.co/titan-capital-forensics) · [Crunchbase](https://www.crunchbase.com/organization/titan-capital-forensics-llp)
