@@ -129,5 +129,5 @@ TITAN encourages responsible upstream open source participation (bug reports, se
 
 ## 6. Adherence to Specification Requirements (ISO/IEC 5230 § 3.6)
 
-- **Conformance Confirmation:** TITAN maintains a complete item-by-item verification record mapping all 33 criteria of the official OpenChain ISO/IEC 5230:2020 Self-Certification Checklist in [`compliance/ISO-5230-2020-CONFORMANCE-RECORD.md`](./compliance/ISO-5230-2020-CONFORMANCE-RECORD.md).
+- **Conformance Confirmation:** TITAN maintains a complete item-by-item verification record mapping all 34 criteria of the official OpenChain ISO/IEC 5230:2020 Self-Certification Checklist in [`compliance/ISO-5230-2020-CONFORMANCE-RECORD.md`](./compliance/ISO-5230-2020-CONFORMANCE-RECORD.md).
 - **Mandatory 18-Month Review Cycle:** The Open Source Compliance Officer conducts a formal review and re-confirmation of this program at least once every **18 months** (initial adoption: `2026-11-27`; next mandatory review deadline: `2028-05-27`), updating the conformance record and SBOM archive accordingly.

@@ -32,7 +32,7 @@ Albuquerque, New Mexico, USA (NM SOS Business ID `0008141707`) · [titancapitalf
 
 ## Verified Institutional, Package & Open-Source Trust Registries
 
-- **Open Source License Compliance (OpenChain ISO/IEC 5230:2020):** [Open Source Compliance Program](../OPEN_SOURCE_COMPLIANCE_PROGRAM.md) · [33/33 Conformance Record](../compliance/ISO-5230-2020-CONFORMANCE-RECORD.md) · [Vulnerability Disclosure Policy](../SECURITY.md)
+- **Open Source License Compliance (OpenChain ISO/IEC 5230:2020):** [Open Source Compliance Program](../OPEN_SOURCE_COMPLIANCE_PROGRAM.md) · [34/34 Conformance Record](../compliance/ISO-5230-2020-CONFORMANCE-RECORD.md) · [Vulnerability Disclosure Policy](../SECURITY.md)
 - **OpenSSF Supply-Chain Assurance:** [OpenSSF Best Practices Badge (`PASSING 100%`, `#17188`)](https://www.bestpractices.dev/en/projects/17188) · [Google `deps.dev` PyPI Attestation](https://deps.dev/pypi/titan-statutory-mcp-gate) · [Google `deps.dev` npm SLSA v1 Provenance](https://deps.dev/npm/%40titan-capital-forensics%2Fstatutory-cli)
 - **Official Package & MCP Registries:** [PyPI (`titan-statutory-mcp-gate`)](https://pypi.org/project/titan-statutory-mcp-gate/) · [npm (`@titan-capital-forensics/statutory-cli`)](https://www.npmjs.com/package/@titan-capital-forensics/statutory-cli) · [Glama Verified Official MCP](https://glama.ai/mcp/servers/titan-capital-forensics/titan-statutory-mcp-gate) · [GitLab Official Mirror](https://gitlab.com/titan-capital-forensics)
 - **Cryptographic Identity (OpenPGP Ed25519 — 3/3 Verified Proofs):** [`keyoxide.org/F38185B9E58B9AA560D9A0AC3DEEC6D7518051E1`](https://keyoxide.org/F38185B9E58B9AA560D9A0AC3DEEC6D7518051E1)
